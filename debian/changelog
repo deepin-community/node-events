@@ -1,3 +1,21 @@
+node-events (3.3.0+~3.0.0-3) unstable; urgency=medium
+
+  * Team upload
+  * Drop dependency to nodejs
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse
+  * Update standards version to 4.6.1, no changes needed
+  * Allow __proto__ call during test
+
+ -- Yadd <yadd@debian.org>  Wed, 30 Nov 2022 23:00:55 +0100
+
+node-events (3.3.0+~3.0.0-2) unstable; urgency=medium
+
+  * team upload
+
+  * use and build-depend on terser (not uglifyjs.terser)
+
+ -- Jonas Smedegaard <dr@jones.dk>  Thu, 02 Dec 2021 20:35:26 +0100
+
 node-events (3.3.0+~3.0.0-1) unstable; urgency=medium
 
   * Embed typescript definitions

@@ -4,7 +4,7 @@
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
 
-js-compressor := $(or $(notdir $(shell which uglifyjs.terser)),yui-compressor)
+js-compressor := $(or $(notdir $(shell which terser)),yui-compressor)
 
 # This has to be exported to make some magic below work.
 export DH_OPTIONS

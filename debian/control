@@ -8,8 +8,8 @@ Build-Depends: debhelper-compat (= 13)
  , dh-sequence-nodejs
  , node-debbundle-es-to-primitive <!nocheck>
  , node-tape <!nocheck>
- , uglifyjs.terser
-Standards-Version: 4.6.0
+ , terser
+Standards-Version: 4.6.1
 Vcs-Browser: https://salsa.debian.org/js-team/node-events
 Vcs-Git: https://salsa.debian.org/js-team/node-events.git
 Homepage: https://github.com/Gozala/events
@@ -19,7 +19,6 @@ Package: node-events
 Architecture: all
 Depends: ${misc:Depends}
  , libjs-events
- , nodejs
 Provides: ${nodejs:Provides}
 Multi-Arch: foreign
 Description: Node.js events module to embed by web packers
